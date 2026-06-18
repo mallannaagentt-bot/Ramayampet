@@ -1,0 +1,6 @@
+{
+  "name": "IFB Washing Machine Repair Ramayampet",
+  "description": "Expert repair and service for all IFB and general washing machine models in Ramayampet. Call or book via WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
