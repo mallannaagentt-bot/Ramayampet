@@ -13,10 +13,10 @@ export default function Footer() {
           {/* Brand Info */}
           <div className="md:col-span-5 space-y-4">
             <span className="font-display font-black text-2xl text-white uppercase tracking-tight">
-              IFB <span className="text-sky-500 font-medium lowercase font-sans text-lg">Repair Ramayampet Hub</span>
+              IFB <span className="text-sky-500 font-medium lowercase font-sans text-lg">Service Center</span>
             </span>
             <p className="text-slate-400 text-xs sm:text-sm leading-relaxed max-w-sm">
-              We specialize in on-demand, doorstep washing machine repairs for all IFB variants and other world-class brands. Trust, transparency, and original spare-parts with local servicing.
+              We specialize in on-demand, doorstep washing machine repairs for all IFB variants and other world-class brands. Trust, transparency, and original spare-parts with local servicing across Gajwel, Toopran, Chegunta, Siddipet, and Ramayampet.
             </p>
             <div className="flex items-center gap-2 text-xs text-slate-300 font-semibold bg-slate-800 px-3.5 py-1.5 rounded-lg border border-slate-700/50 w-fit">
               <ShieldCheck className="w-4 h-4 text-emerald-400" />
@@ -57,8 +57,8 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-sky-400 shrink-0 mt-0.5" />
                 <div>
-                  <span className="block text-slate-100 font-bold">Ramayampet, Telangana 502159</span>
-                  <span className="text-slate-500 text-[11px] font-semibold uppercase">All areas doorstep visit</span>
+                  <span className="block text-slate-100 font-bold">Siddipet, Gajwel, Toopran, Chegunta & Ramayampet</span>
+                  <span className="text-slate-500 text-[11px] font-semibold uppercase">All local areas doorstep visit</span>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -77,9 +77,9 @@ export default function Footer() {
       {/* Bottom Footer legal bar */}
       <div className="bg-slate-950 py-6 text-center text-xs text-slate-500 border-t border-slate-900 px-4">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p>© {new Date().getFullYear()} IFB Washing Machine Repair Ramayampet. All Rights Reserved.</p>
+          <p>© {new Date().getFullYear()} IFB Washing Machine Service Center (Gajwel, Toopran, Chegunta, Siddipet, Ramayampet). All Rights Reserved.</p>
           <div className="flex items-center gap-1">
-            <span>Made with Integrity for Ramayampet</span>
+            <span>Made with Integrity for our Service Areas</span>
             <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500" />
           </div>
         </div>

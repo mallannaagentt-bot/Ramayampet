@@ -20,8 +20,8 @@ export default function Header() {
                 IFB <span className="text-sky-600 font-medium lowercase font-sans text-lg">Repair</span>
               </span>
               <div className="flex items-center gap-1.5 mt-0.5">
-                <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
-                <span className="text-[10px] font-semibold text-gray-500 tracking-wider uppercase font-mono">Ramayampet Area Hub</span>
+                <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping"></span>
+                <span className="text-[10px] font-extrabold text-sky-700 tracking-wider uppercase font-mono">Gajwel | Toopran | Chegunta | Siddipet | Ramayampet</span>
               </div>
             </div>
           </a>
@@ -107,8 +107,8 @@ export default function Header() {
                 <Phone className="w-5 h-5 fill-white" />
                 Call 9502362682
               </a>
-              <div className="text-center text-xs text-gray-500 font-medium">
-                Professional doorstep repairing in Ramayampet
+              <div className="text-center text-xs text-gray-500 font-medium leading-relaxed">
+                Professional doorstep repairing in Gajwel, Toopran, Chegunta, Siddipet & Ramayampet
               </div>
             </div>
           </div>

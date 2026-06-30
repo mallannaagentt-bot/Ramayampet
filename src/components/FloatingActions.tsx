@@ -7,7 +7,7 @@ export default function FloatingActions() {
   const compiledCallNumber = `tel:+91${phoneNumber}`;
   
   // Custom pre-encoded quick chat text
-  const quickChatText = encodeURIComponent("Hello! I am looking for IFB washing machine repair service in Ramayampet. Please check calendar and contact me.");
+  const quickChatText = encodeURIComponent("Hello! I am looking for IFB washing machine repair service. Please check calendar and contact me.");
   const compiledWhatsAppUrl = `https://api.whatsapp.com/send?phone=91${phoneNumber}&text=${quickChatText}`;
 
   useEffect(() => {
@@ -85,7 +85,7 @@ export default function FloatingActions() {
       {/* Decorative localized badge exclusively on desktop view */}
       <div className="hidden md:flex items-center justify-center gap-1.5 bg-emerald-50 text-emerald-800 text-[9px] font-black tracking-wider uppercase px-2.5 py-1 rounded-full border border-emerald-250 absolute -top-3 left-1/2 -translate-x-1/2 shadow-xs">
         <MapPin className="w-3 h-3 text-emerald-600" />
-        <span>Ramayampet Area</span>
+        <span>Multi-Area Cover</span>
       </div>
 
     </div>

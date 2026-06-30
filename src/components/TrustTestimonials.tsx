@@ -6,7 +6,7 @@ export default function TrustTestimonials() {
     {
       id: "r-1",
       name: "M. Srinivas Reddy",
-      location: "Near Bus Stand, Ramayampet",
+      location: "Near Bus Stand, Siddipet",
       rating: 5,
       comment: "My IFB Senator Front Load was showing dE error and wouldn't start. Called this technician in the morning. He came directly to my home by 12:00 PM, diagnosed a door latch lock sensor problem, and resolved it. Very polite and prompt service!",
       date: "3 days ago"
@@ -14,7 +14,7 @@ export default function TrustTestimonials() {
     {
       id: "r-2",
       name: "Sharada Anjaneyulu",
-      location: "Subhash Road, Ramayampet",
+      location: "Subhash Road, Gajwel",
       rating: 5,
       comment: "Loud banging noise during spin cycles on our IFB Diva machine. I was worried it was a total loss, but the mechanic changed the drum bearings and shock absorber with original spares right in front of us. Highly recommended!",
       date: "1 week ago"
@@ -22,7 +22,7 @@ export default function TrustTestimonials() {
     {
       id: "r-3",
       name: "K. Venkatesh",
-      location: "Pragathi Nagar, Ramayampet",
+      location: "Pragathi Nagar, Toopran",
       rating: 5,
       comment: "Excellent doorstep washing machine service. Water was leaking continuously from the bottom door and staying inside the tub. Quick response after filling the WhatsApp booking form. Honest pricing, highly reliable.",
       date: "2 weeks ago"
@@ -41,10 +41,10 @@ export default function TrustTestimonials() {
         <div className="text-center max-w-3xl mx-auto space-y-4 mb-16">
           <span className="text-sky-600 font-bold tracking-wider text-xs uppercase block font-mono">NEIGHBORHOOD FEEDBACK</span>
           <h2 className="font-display font-extrabold text-3xl sm:text-4xl text-gray-900 tracking-tight">
-            Loved & Trusted in Ramayampet
+            Loved & Trusted Regionally
           </h2>
           <p className="text-gray-500 font-medium text-sm sm:text-base">
-            Read real feedback from neighbors who experienced our expert washing machine doorstep service.
+            Read real feedback from neighbors in Gajwel, Toopran, Chegunta, Siddipet, and Ramayampet who experienced our expert washing machine doorstep service.
           </p>
         </div>
 

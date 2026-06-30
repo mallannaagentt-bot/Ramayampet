@@ -10,14 +10,14 @@ export default function About() {
           {/* Left Column Description */}
           <div className="space-y-6 sm:space-y-8">
             <div className="space-y-3">
-              <span className="text-sky-600 font-bold tracking-wider text-xs uppercase block font-mono">ABOUT RAMAYAMPET HUB</span>
+              <span className="text-sky-600 font-bold tracking-wider text-xs uppercase block font-mono">ABOUT OUR REGIONAL HUB</span>
               <h2 className="font-display font-extrabold text-3xl sm:text-4xl text-gray-900 tracking-tight">
                 Our Service is Synonymous with <span className="text-sky-600">Trust</span>
               </h2>
             </div>
 
             <p className="text-gray-600 text-base leading-relaxed">
-              For several years, residents in and around Ramayampet have depended on us for quick, high-quality, and reliable repairs. We are deeply committed to ensuring that your household continues to run smoothly. When a washing machine breaks, we understand it disrupts your daily schedule. That is why we provide rapid door-to-door repair services.
+              For several years, residents across <strong className="text-gray-900 font-semibold">Gajwel, Toopran, Chegunta, Siddipet, and Ramayampet</strong> have depended on us for quick, high-quality, and reliable repairs. We are deeply committed to ensuring that your household continues to run smoothly. When a washing machine breaks, we understand it disrupts your daily schedule. That is why we provide rapid door-to-door repair services.
             </p>
 
             <blockquote className="border-l-4 border-sky-600 pl-4 py-1 italic text-gray-800 font-semibold bg-sky-50/50 rounded-r-xl pr-3">
@@ -32,8 +32,8 @@ export default function About() {
               <div className="flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100">
                 <MapPin className="w-6 h-6 text-sky-600 shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-bold text-gray-900 text-sm">Local Ramayampet Service</h4>
-                  <p className="text-xs text-gray-500">We operate directly within Ramayampet town and neighboring villages.</p>
+                  <h4 className="font-bold text-gray-900 text-sm">Local Multi-Area Service</h4>
+                  <p className="text-xs text-gray-500">We operate directly within Gajwel, Toopran, Chegunta, Siddipet, and Ramayampet.</p>
                 </div>
               </div>
 
@@ -51,7 +51,7 @@ export default function About() {
           {/* Right Column: Key Pillars details with grid style */}
           <div className="bg-slate-50 rounded-3xl p-8 border border-slate-100 space-y-8">
             <h3 className="font-display font-bold text-xl text-gray-900">
-              Why Ramayampet Chooses Our Service
+              Why Customers Choose Our Service
             </h3>
 
             <div className="space-y-6">

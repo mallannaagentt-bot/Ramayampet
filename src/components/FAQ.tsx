@@ -8,8 +8,8 @@ export default function FAQ() {
   const faqs: FAQItem[] = [
     {
       id: "q-1",
-      question: "Do you provide same-day doorstep repairs in Ramayampet?",
-      answer: "Yes, absolutely! Once you fill out the booking form or call us directly at 9502362682, our expert technician arranges a mutual time. We complete almost 90% of repairs right at your home on the same day."
+      question: "Do you provide same-day doorstep repairs in Gajwel, Toopran, Chegunta, Siddipet, and Ramayampet?",
+      answer: "Yes, absolutely! Once you fill out the booking form or call us directly at 9502362682, our expert technician arranges a mutual time. We complete almost 90% of repairs right at your home on the same day across Gajwel, Toopran, Chegunta, Siddipet, and Ramayampet."
     },
     {
       id: "q-2",
@@ -48,7 +48,7 @@ export default function FAQ() {
             Frequently Asked Questions
           </h2>
           <p className="text-gray-500 font-semibold text-xs sm:text-sm uppercase tracking-wider font-mono">
-            Clear Answers regarding our Ramayampet doorstep services
+            Clear Answers regarding our regional doorstep services
           </p>
         </div>
 

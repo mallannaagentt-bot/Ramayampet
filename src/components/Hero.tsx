@@ -22,20 +22,20 @@ export default function Hero() {
             {/* Promo Pill */}
             <div className="inline-flex items-center gap-2 bg-sky-50 border border-sky-100 text-sky-800 px-4 py-2 rounded-full text-xs font-semibold uppercase tracking-wider animate-bounce">
               <Sparkles className="w-4.5 h-4.5 text-sky-500 fill-sky-200" />
-              <span>Reliable Doorstep Service in Ramayampet</span>
+              <span>Doorstep Service in Gajwel, Toopran, Chegunta, Siddipet & Ramayampet</span>
             </div>
 
             {/* Main Display Heading */}
             <h1 className="font-display font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-gray-900 leading-tight">
               IFB Washing Machine <br className="hidden sm:inline" />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-sky-800">
-                Repair Ramayampet
+                Service Center
               </span>
             </h1>
 
             {/* Purpose & Subhead */}
             <p className="text-md sm:text-lg text-gray-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-sans font-medium">
-              Professional, on-demand repair and service for <strong className="text-gray-900 font-semibold">all washing machine models</strong>. Specializing in front load, top load, and semi-automatic systems. Synonymous with safety, transparency, and trust.
+              Professional, on-demand repair and service for <strong className="text-gray-900 font-semibold">all washing machine models</strong>. Specializing in front load, top load, and semi-automatic systems. Proudly serving <strong className="text-sky-700 font-semibold">Gajwel, Toopran, Chegunta, Siddipet, and Ramayampet</strong> with safety, transparency, and trust.
             </p>
 
             {/* Key Service Highlights */}

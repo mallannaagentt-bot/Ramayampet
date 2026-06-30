@@ -58,12 +58,12 @@ export default function RepairForm({ initialIssue }: RepairFormProps) {
 
   // Helper to compile the WhatsApp message
   const generateWhatsAppText = () => {
-    const header = "🛠️ *IFB WASHING MACHINE BOOKING (RAMAYAMPET)* 🛠️\n\n";
+    const header = "🛠️ *IFB WASHING MACHINE SERVICE BOOKING* 🛠️\n\n";
     const body = `*Customer Name:* ${formData.name || 'Not provided'}
 *Phone Number:* ${formData.phone || 'Not provided'}
 *Washing Machine Model:* ${formData.modelType}
 *Specific Issue:* ${formData.issueType || 'General Service required'}
-*Ramayampet Landmark/Address:* ${formData.address || 'Address is pending callback'}
+*Service Landmark/Address:* ${formData.address || 'Address is pending callback'}
 *Additional Notes:* ${formData.notes || 'None'}`;
     const footer = "\n\n_Please review active schedules for same-day doorstep service. Thank you!_";
     return header + body + footer;
@@ -86,7 +86,7 @@ export default function RepairForm({ initialIssue }: RepairFormProps) {
       return;
     }
     if (!formData.address.trim()) {
-      setErrorMessage("Please mention your address or local landmark in Ramayampet.");
+      setErrorMessage("Please mention your address or landmark in Siddipet, Gajwel, Toopran, Chegunta, or Ramayampet.");
       return;
     }
 
@@ -267,23 +267,23 @@ export default function RepairForm({ initialIssue }: RepairFormProps) {
 
                 </div>
 
-                {/* Ramayampet Address */}
-                <div className="space-y-2">
-                  <label className="text-xs font-bold text-gray-700 tracking-wider uppercase block" htmlFor="address">Service Address / Local Landmark in Ramayampet *</label>
-                  <div className="relative">
-                    <MapPin className="w-4 h-4 text-gray-400 absolute left-3.5 top-4" />
-                    <textarea 
-                      id="address"
-                      name="address"
-                      required
-                      rows={2}
-                      value={formData.address}
-                      onChange={handleChange}
-                      placeholder="e.g. Near Ramayampet Bus Stand, Ward No 4, House #12-3..." 
-                      className="w-full bg-white border border-slate-200/80 focus:border-sky-500 focus:ring-1 focus:ring-sky-500/30 rounded-xl pl-10 pr-4 py-3.5 text-sm font-medium transition-all resize-none"
-                    ></textarea>
-                  </div>
-                </div>
+                 {/* Service Location Address */}
+                 <div className="space-y-2">
+                   <label className="text-xs font-bold text-gray-700 tracking-wider uppercase block" htmlFor="address">Service Address / Local Landmark (Siddipet, Gajwel, Toopran, Chegunta, Ramayampet) *</label>
+                   <div className="relative">
+                     <MapPin className="w-4 h-4 text-gray-400 absolute left-3.5 top-4" />
+                     <textarea 
+                       id="address"
+                       name="address"
+                       required
+                       rows={2}
+                       value={formData.address}
+                       onChange={handleChange}
+                       placeholder="e.g. Near Bus Stand, Siddipet / Gajwel / Toopran / Chegunta / Ramayampet, House #12-3..." 
+                       className="w-full bg-white border border-slate-200/80 focus:border-sky-500 focus:ring-1 focus:ring-sky-500/30 rounded-xl pl-10 pr-4 py-3.5 text-sm font-medium transition-all resize-none"
+                     ></textarea>
+                   </div>
+                 </div>
 
                 {/* Additional notes */}
                 <div className="space-y-2">
